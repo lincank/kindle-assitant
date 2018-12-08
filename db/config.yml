@@ -1,0 +1,12 @@
+default: &default
+  adapter: sqlite3
+  database: "/Volumes/Kindle/system/vocabulary/vocab.db"
+  encoding: unicode
+
+development:
+  <<: *default
+
+test: &test
+  <<: *default
+
+production:
