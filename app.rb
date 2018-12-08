@@ -30,4 +30,4 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
   }
 end
 
-File.open(Dir.home + "/Downloads/workbook.xml", 'w+') { |file| file.write(builder.to_xml) }
+File.open("wordbook.xml", 'w+') { |file| file.write(builder.to_xml) }

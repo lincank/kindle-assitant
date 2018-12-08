@@ -3,7 +3,7 @@
 
 Export Kindle vocabulary tor Eudic(欧陆) in XML format.
 
-Written in ruby, can be run on any computer with Win/*nix/Mac
+Written in ruby using ActiveRecord, can be run on any computer with Win/*nix/Mac
 
 ## Defaults
 ```
@@ -21,5 +21,5 @@ timestamp = 7.days.ago.to_i * 1000
 bundle
 ruby app.rb
 
-find xml on `~/Downloads/workbook.xml`
+find xml on `workbook.xml`
 ```
