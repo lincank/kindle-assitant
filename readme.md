@@ -1,4 +1,4 @@
-#Kindle Vocabulary Export Assistant
+# Kindle Vocabulary Export Assistant
 ## Info
 
 Export Kindle vocabulary tor Eudic(欧陆) in XML format.
